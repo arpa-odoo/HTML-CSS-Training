@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: rgb(241, 241, 252);
+    margin: 15px auto;
+    padding: 20px;
+    color: #27aae1;
+    border: thick solid rgb(206, 203, 203);
+    justify-content: space-between;
+
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img {
+    width: 200px;
+    height: 180px;
+    aspect-ratio: 16/9;
+}
+
+#submit {
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px
+}
+
+
+#reset {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#contact {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.education {
+    padding: 0 5px;
+    line-height: 16px;
+    font-size: 14px;
+    font-size: 14px;
+    color: #000;
+}
+
+.title {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px;
+    color: #27aae1;
+}
+
+#submit:hover{
+    background-color: rgb(54, 4, 235);
+    color: rgb(10, 6, 6);
+}
+
+#reset:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+}
